@@ -4,8 +4,7 @@ import { Link } from 'react-router-dom'
 function Landing() {
   return (
     <div>
-      <div className="d-flex align-items-center auth px-0" style={{ position: 'absolute', left: 0, top: 0, height: '100vh', width: '100vw', backgroundImage: 'linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://res.cloudinary.com/dpny4vmnc/image/upload/v1676852905/IMG-6687_ghpsso.jpg
-")', backgroundRepeat: "no-repeat", backgroundSize: 'cover' }}>
+      <div className="d-flex align-items-center auth px-0" style={{ position: 'absolute', left: 0, top: 0, height: '100vh', width: '100vw', backgroundImage: 'linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("/Images/auth/adminlogin.jpg")', backgroundRepeat: "no-repeat", backgroundSize: 'cover' }}>
         <div className="row w-100 mx-0" style={{ position:'absolute',top:'24%' }}>
           <div className="mx-auto">
             <div className="card text-left px-4 px-sm-5 shadow-none" style={{ background: 'transparent' }} >
